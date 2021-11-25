@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+.navRight img{
+    max-width: 150px;
+}
+
+.navCenter a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+
+.navLeft a{
+    padding: 5px;
+    color: #1DA1F2;
+}
+
+.toggle-btn {
+    display: none;
+}
