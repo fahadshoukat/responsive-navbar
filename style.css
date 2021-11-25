@@ -9,6 +9,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 0px 10px;
+    background-color: whitesmoke;
 }
 
 .navRight img{
@@ -28,4 +29,41 @@
 
 .toggle-btn {
     display: none;
+}
+
+@media screen and (max-width: 768px){
+    .navLeft{
+        display: none;
+    }
+    .toggle-btn {
+        display: none;
+    }
+    .navBar {
+        padding: 0px 20px;
+    }
+}
+
+@media  screen and (max-width: 425px) {
+    .navCenter{
+        display: none;
+    }
+    .showNavCenter{
+        display: grid;
+        position: absolute;
+        top: 30px;
+        left: 0;
+        width: 100%;
+        background-color: whitesmoke;
+    }
+    .showNavCenter a:hover {
+        background-color: lightseagreen;
+    }
+    .toggle-btn{
+        display: block;
+    }
+
+    .toggle-btn:hover {
+        transform: rotate(90deg);
+        transition: 0.3s linear;
+    }
 }
