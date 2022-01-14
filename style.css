@@ -2,18 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 1.5rem;
 }
 
 .navBar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 10px;
+    padding: 10px;
     background-color: whitesmoke;
 }
 
 .navRight img{
-    max-width: 150px;
+    max-width: 200px;
 }
 
 .navCenter a{
@@ -32,6 +33,9 @@
 }
 
 @media screen and (max-width: 768px){
+    * {
+        font-size: 1.2rem;
+    }
     .navLeft{
         display: none;
     }
